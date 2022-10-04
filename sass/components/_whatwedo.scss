@@ -1,0 +1,35 @@
+.whatwedo {
+    padding-top: 0;
+
+    @media screen and (max-width: 1199px) {
+      display: none;
+    }
+      
+    }
+  .whatwedo__list {
+    display: flex;
+    gap: 30px;
+  }
+
+  .whatwedo__title {
+    @extend %title
+  }
+  .whatwedo__text {
+    position: absolute;
+    display: flex;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    bottom: 0;
+    margin: 0;
+    background: rgba(47, 48, 58, 0.8);
+    font-weight: 700;
+    line-height: 1.2;
+    justify-content: center;
+    text-transform: uppercase;
+    color: var(--white-color);
+    width: 100%;
+  }
+  .whatwedo__img-text {
+    position: relative;
+  }
+  

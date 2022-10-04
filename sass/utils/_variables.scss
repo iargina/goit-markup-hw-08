@@ -1,0 +1,30 @@
+:root {
+    --primary-text-color: #212121;
+    --accent-color: #2196f3;
+    --white-color: #ffffff;
+    --grey-accent: #757575;
+    --black: #000000;
+    --hero-background: #2f303a;
+    --grey-background: #f5f5f5;
+    --filter-color: #f5f4fa;
+    --footer-contact-text: rgba(255, 255, 255, 0.6);
+    --box-shadow-one: rgba(0, 0, 0, 0.1);
+    --box-shadow-two: rgba(0, 0, 0, 0.08);
+    --box-shadow-three: rgba(0, 0, 0, 0.12);
+    --social-links: #afb1b8;
+    --background-social-footer: rgba(255, 255, 255, 0.1);
+    --overlay-background: rgba(33, 150, 243, 0.9);
+    --backdrop-background: rgba(0, 0, 0, 0.2);
+  }
+
+  %title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: var(--primary-text-color);
+  }
+  
