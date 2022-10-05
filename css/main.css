@@ -132,6 +132,7 @@ h6 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    max-width: 138px;
   }
 }
 
@@ -166,7 +167,6 @@ h6 {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header-contact {
     font-size: 12px;
-    max-width: 138px;
   }
 }
 @media screen and (min-width: 1200px) {
