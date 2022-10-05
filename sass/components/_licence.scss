@@ -1,10 +1,11 @@
-.checkbox-div {
+.checkbox__div {
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100%;
+    align-items: center;
   }
   .licence__checkbox-icon {
+    display: inline-block;
     width: 16px;
     height: 15px;
     border: var(--primary-text-color) 2px solid;
@@ -32,19 +33,26 @@
 }
   .licence__label {
     display: flex;
-    align-items: center;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 14px;
     /* identical to box height, or 171% */
     letter-spacing: 0.03em;
+    align-items: center;
   
     color: var(--grey-accent);
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+      line-height: 24px;
+    }
   }
   .licence__link {
-    display: flex;
+display: inline-block;
     text-decoration-line: underline;
     color: var(--accent-color);
     margin-left: 3px;
+    @media screen and (min-width: 1200px) {
+      display: flex;
+    }
   }
   

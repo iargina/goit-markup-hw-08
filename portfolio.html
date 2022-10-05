@@ -19,7 +19,7 @@
   </head>
 
   <body>
-  <header class="header">
+    <header class="header">
       <div class="container header__nav">
         <nav class="main-nav">
           <a href="" class="logo"
@@ -30,7 +30,9 @@
               <a href="./index.html" class="main-nav__link">Студія</a>
             </li>
             <li class="main-nav__item">
-              <a href="./portfolio.html" class="main-nav__link current">Портфоліо</a>
+              <a href="./portfolio.html" class="main-nav__link current"
+                >Портфоліо</a
+              >
             </li>
             <li class="main-nav__item">
               <a href="/contact" class="main-nav__link">Контакти</a>
@@ -59,9 +61,9 @@
           aria-expanded="false"
           aria-controls="mobile-menu"
         >
-        <svg width="24px" height="16px">
-          <use href="./images/icon.svg#icon-mobile-menu"></use>
-        </svg>
+          <svg width="24px" height="16px">
+            <use href="./images/icon.svg#icon-mobile-menu"></use>
+          </svg>
         </button>
       </div>
     </header>
@@ -71,7 +73,10 @@
           <h1 class="filter">Проекти</h1>
           <ul class="list filter__list">
             <li class="buttons">
-              <button type="button" class="button__filter button__filter-current">
+              <button
+                type="button"
+                class="button__filter button__filter-current"
+              >
                 Усі
               </button>
             </li>
@@ -92,11 +97,63 @@
             <li class="project__item">
               <a href="" class="project__link">
                 <div class="project__img">
-                  <img
-                    src="./images/tehnohryak.jpg"
-                    width="370"
-                    alt="Скріншот сторінки сайту з командою на ноутбуці"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ./images/project/project1-l.webp    1x,
+                        ./images/project/project1-l@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ./images/project/project1-l.jpg    1x,
+                        ./images/project/project1-l@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ./images/project/project1-m.webp    1x,
+                        ./images/project/project1-m@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ./images/project/project1-m.jpg    1x,
+                        ./images/project/project1-m@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <source
+                      media="(min-width:480px)"
+                      srcset="
+                        ./images/project/project1-s.webp    1x,
+                        ./images/project/project1-s@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:480px)"
+                      srcset="
+                        ./images/project/project1-s.jpg    1x,
+                        ./images/project/project1-s@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <img
+                      src="./images/project/project1-s.jpg"
+                      alt="Скріншот сторінки сайту з командою на ноутбуці"
+                    />
+                  </picture>
                   <p class="project__overlay-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -112,11 +169,63 @@
             <li class="project__item">
               <a href="" class="project__link">
                 <div class="project__img">
-                  <img
-                    src="./images/poster.jpg"
-                    width="370"
-                    alt="Два баскетболітси кидають м'яч"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ./images/project/project2-l.webp    1x,
+                        ./images/project/project2-l@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ./images/project/project2-l.jpg    1x,
+                        ./images/project/project2-l@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ./images/project/project2-m.webp    1x,
+                        ./images/project/project2-m@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ./images/project/project2-m.jpg    1x,
+                        ./images/project/project2-m@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <source
+                      media="(min-width:480px)"
+                      srcset="
+                        ./images/project/project2-s.webp    1x,
+                        ./images/project/project2-s@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:480px)"
+                      srcset="
+                        ./images/project/project2-s.jpg    1x,
+                        ./images/project/project2-s@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <img
+                      src="./images/project/project2-s.jpg"
+                      alt="Два баскетболітси кидають м'яч"
+                    />
+                  </picture>
                   <p class="project__overlay-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -124,7 +233,9 @@
                   </p>
                 </div>
                 <div class="project__title">
-                  <h2 class="project__name">Постер New Orlean vs Golden Star</h2>
+                  <h2 class="project__name">
+                    Постер New Orlean vs Golden Star
+                  </h2>
                   <p class="project__text">Дизайн</p>
                 </div>
               </a>
@@ -132,11 +243,63 @@
             <li class="project__item">
               <a href="" class="project__link">
                 <div class="project__img">
-                  <img
-                    src="./images/seafood.jpg"
-                    width="370"
-                    alt="Логотип ресторану, на якому зображена акула"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ./images/project/project3-l.webp    1x,
+                        ./images/project/project3-l@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ./images/project/project3-l.jpg    1x,
+                        ./images/project/project3-l@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ./images/project/project3-m.webp    1x,
+                        ./images/project/project3-m@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ./images/project/project3-m.jpg    1x,
+                        ./images/project/project3-m@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <source
+                      media="(min-width:480px)"
+                      srcset="
+                        ./images/project/project3-s.webp    1x,
+                        ./images/project/project3-s@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:480px)"
+                      srcset="
+                        ./images/project/project3-s.jpg    1x,
+                        ./images/project/project3-s@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <img
+                      src="./images/project/project3-s.jpg"
+                      alt="Логотип ресторану, на якому зображена акула"
+                    />
+                  </picture>
                   <p class="project__overlay-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -152,11 +315,63 @@
             <li class="project__item">
               <a href="" class="project__link">
                 <div class="project__img">
-                  <img
-                    src="./images/prime.jpg"
-                    width="370"
-                    alt="Фото навушників-накладок"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ./images/project/project4-l.webp    1x,
+                        ./images/project/project4-l@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ./images/project/project4-l.jpg    1x,
+                        ./images/project/project4-l@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ./images/project/project4-m.webp    1x,
+                        ./images/project/project4-m@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ./images/project/project4-m.jpg    1x,
+                        ./images/project/project4-m@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <source
+                      media="(min-width:480px)"
+                      srcset="
+                        ./images/project/project4-s.webp    1x,
+                        ./images/project/project4-s@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:480px)"
+                      srcset="
+                        ./images/project/project4-s.jpg    1x,
+                        ./images/project/project4-s@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <img
+                      src="./images/project/project4-s.jpg"
+                      alt="Фото навушників-накладок"
+                    />
+                  </picture>
                   <p class="project__overlay-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -172,11 +387,63 @@
             <li class="project__item">
               <a href="" class="project__link">
                 <div class="project__img">
-                  <img
-                    src="./images/boxes.jpg"
-                    width="370"
+                <picture>
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ./images/project/project5-l.webp    1x,
+                        ./images/project/project5-l@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ./images/project/project5-l.jpg    1x,
+                        ./images/project/project5-l@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ./images/project/project5-m.webp    1x,
+                        ./images/project/project5-m@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ./images/project/project5-m.jpg    1x,
+                        ./images/project/project5-m@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <source
+                      media="(min-width:480px)"
+                      srcset="
+                        ./images/project/project5-s.webp    1x,
+                        ./images/project/project5-s@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:480px)"
+                      srcset="
+                        ./images/project/project5-s.jpg    1x,
+                        ./images/project/project5s@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <img
+                      src="./images/project/project5-s.jpg"
                     alt="Коробки для пакування"
                   />
+                  </picture>
                   <p class="project__overlay-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -192,11 +459,63 @@
             <li class="project__item">
               <a href="" class="project__link">
                 <div class="project__img">
-                  <img
-                    src="./images/noborders.jpg"
-                    width="370"
+                <picture>
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ./images/project/project6-l.webp    1x,
+                        ./images/project/project5-l@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ./images/project/project6-l.jpg    1x,
+                        ./images/project/project6-l@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ./images/project/project6-m.webp    1x,
+                        ./images/project/project6-m@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ./images/project/project6-m.jpg    1x,
+                        ./images/project/project6-m@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <source
+                      media="(min-width:480px)"
+                      srcset="
+                        ./images/project/project6-s.webp    1x,
+                        ./images/project/project6-s@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:480px)"
+                      srcset="
+                        ./images/project/project6-s.jpg    1x,
+                        ./images/project/project6-s@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <img
+                      src="./images/project/project6-s.jpg"
                     alt="Скріншот сайту на ноутбуці"
                   />
+                  </picture>
                   <p class="project__overlay-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -212,11 +531,63 @@
             <li class="project__item">
               <a href="" class="project__link">
                 <div class="project__img">
-                  <img
-                    src="./images/limitededition.jpg"
-                    width="370"
+                <picture>
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ./images/project/project7-l.webp    1x,
+                        ./images/project/project7-l@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ./images/project/project7-l.jpg    1x,
+                        ./images/project/project7-l@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ./images/project/project7-m.webp    1x,
+                        ./images/project/project7-m@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ./images/project/project7-m.jpg    1x,
+                        ./images/project/project7-m@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <source
+                      media="(min-width:480px)"
+                      srcset="
+                        ./images/project/project7-s.webp    1x,
+                        ./images/project/project7-s@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:480px)"
+                      srcset="
+                        ./images/project/project7-s.jpg    1x,
+                        ./images/project/project7-s@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <img
+                      src="./images/project/project7-s.jpg"
                     alt="Розгорнутий журнал"
                   />
+                  </picture>
                   <p class="project__overlay-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -232,11 +603,63 @@
             <li class="project__item">
               <a href="" class="project__link">
                 <div class="project__img">
-                  <img
-                    src="./images/lab.jpg"
-                    width="370"
+                <picture>
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ./images/project/project8-l.webp    1x,
+                        ./images/project/project8-l@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ./images/project/project8-l.jpg    1x,
+                        ./images/project/project8-l@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ./images/project/project8-m.webp    1x,
+                        ./images/project/project8-m@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ./images/project/project8-m.jpg    1x,
+                        ./images/project/project8-m@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <source
+                      media="(min-width:480px)"
+                      srcset="
+                        ./images/project/project8-s.webp    1x,
+                        ./images/project/project8-s@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:480px)"
+                      srcset="
+                        ./images/project/project8-s.jpg    1x,
+                        ./images/project/project8-s@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <img
+                      src="./images/project/project8-s.jpg"
                     alt="Велика етикетка з написом"
                   />
+                  </picture>
                   <p class="project__overlay-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -252,11 +675,63 @@
             <li class="project__item">
               <a href="" class="project__link">
                 <div class="project__img">
-                  <img
-                    src="./images/growingbusiness.jpg"
-                    width="370"
+                <picture>
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ./images/project/project9-l.webp    1x,
+                        ./images/project/project9-l@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ./images/project/project9-l.jpg    1x,
+                        ./images/project/project9-l@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ./images/project/project9-m.webp    1x,
+                        ./images/project/project9-m@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ./images/project/project9-m.jpg    1x,
+                        ./images/project/project9-m@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <source
+                      media="(min-width:480px)"
+                      srcset="
+                        ./images/project/project9-s.webp    1x,
+                        ./images/project/project9-s@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width:480px)"
+                      srcset="
+                        ./images/project/project9-s.jpg    1x,
+                        ./images/project/project9-s@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <img
+                      src="./images/project/project9-s.jpg"
                     alt="Людина набирає текст на ноутбуці"
                   />
+                  </picture>
                   <p class="project__overlay-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -337,39 +812,45 @@
           <h4 class="footer__title">Підпишіться на розсилку</h4>
           <form name="footer-subscribe" class="footer__subscribe">
             <label class="subscribe-label">
-              <input type="email" placeholder="E-mail" class="footer__email-input" />
-              </label>
-              <button type="submit" class="footer__email-send">
-                Підписатися
-                <svg class="footer__email-send-icon" width="24px" height="24px">
-                  <use href="./images/icon.svg#icon-send"></use>
-                </svg>
-              </button>
+              <input
+                type="email"
+                placeholder="E-mail"
+                class="footer__email-input"
+              />
+            </label>
+            <button type="submit" class="footer__email-send">
+              Підписатися
+              <svg class="footer__email-send-icon" width="24px" height="24px">
+                <use href="./images/icon.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
     </footer>
-          {/*mobile menu */}
+    {/*mobile menu */}
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="mobile-menu__close js-close-menu">
-      <svg  class="mobile-menu__close-icon" width="18px" height="18px">
-                  <use href="./images/icon.svg#icon-close"></use>
+        <svg class="mobile-menu__close-icon" width="18px" height="18px">
+          <use href="./images/icon.svg#icon-close"></use>
         </svg>
       </button>
       <ul class="list mobile-nav__list">
-            <li>
-              <a href="./index.html" class="mobile-nav__link">Студія</a>
-            </li>
-            <li>
-              <a href="./portfolio.html" class="mobile-nav__link current-mob">Портфоліо</a>
-            </li>
-            <li class="main-nav__item">
-              <a href="/contact" class="mobile-nav__link">Контакти</a>
-            </li>
-          </ul>
-          <div class="mobile-nav__contacts">
-        <ul class="list mobile-nav__contact-list">
         <li>
+          <a href="./index.html" class="mobile-nav__link">Студія</a>
+        </li>
+        <li>
+          <a href="./portfolio.html" class="mobile-nav__link current-mob"
+            >Портфоліо</a
+          >
+        </li>
+        <li class="main-nav__item">
+          <a href="/contact" class="mobile-nav__link">Контакти</a>
+        </li>
+      </ul>
+      <div class="mobile-nav__contacts">
+        <ul class="list mobile-nav__contact-list">
+          <li>
             <a href="tel:+380961111111" class="mobile-nav__tel">
               +38 096 111 11 11</a
             >
@@ -394,7 +875,7 @@
             <a class="mobile-menu__social-link" href="">LinkedIn</a>
           </li>
         </ul>
-  </div>
+      </div>
     </div>
     <script src="./js/modal.js"></script>
     <script
