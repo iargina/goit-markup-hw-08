@@ -216,6 +216,12 @@ h6 {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .main-nav__mailto {
+    margin-right: 0;
+  }
+}
+
 .main-nav__link {
   display: block;
   padding-top: 32px;
